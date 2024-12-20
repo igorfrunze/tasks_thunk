@@ -1,0 +1,81 @@
+main {
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  gap: 6px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+input {
+  height: 40px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+button {
+  height: 40px;
+  background-color: #333;
+  color: white;
+  width: 80px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+
+
+button:active {
+  background-color: white;
+  color: #333;
+}
+
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  gap: 6px;
+}
+
+.searchBtn {
+  font-size: 24px;
+}
+
+
+.tasks {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.task {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+textarea {
+  width: auto;
+  font-size: 24px;
+  border: 1px solid black;
+  color: #333;
+  background-color: #40dbc4 ;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 400;
+  cursor: text;
+}
